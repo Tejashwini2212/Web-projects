@@ -1,0 +1,30 @@
+#first{
+    text-align: center;
+    color: red;
+}
+.first{
+    text-align: center;
+    color: lightseagreen;
+    font-size: 20px;
+}
+.cell{
+    border: 2px solid;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    box-shadow: 0 0 0 2px;
+    cursor: pointer;
+    font-size: 60px;
+    font-family: cursive;
+}
+.cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 50px;
+    margin: 50px 400px;
+}
+#restartBtn{
+    align-items: center;
+    margin-left: 450px;
+    font-size: 20px;
+}
